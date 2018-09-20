@@ -1,4 +1,7 @@
 {
+    "escapestudios/symfony2-coding-standard": {
+        "version": "2.x-dev"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -10,6 +13,9 @@
     },
     "psr/simple-cache": {
         "version": "1.0.1"
+    },
+    "squizlabs/php_codesniffer": {
+        "version": "2.9.1"
     },
     "symfony/cache": {
         "version": "v3.4.15"

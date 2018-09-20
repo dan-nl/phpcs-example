@@ -11,6 +11,7 @@
         "symfony/yaml": "*"
     },
     "require-dev": {
+        "escapestudios/symfony2-coding-standard": "2.x-dev",
         "symfony/dotenv": "*"
     },
     "config": {
@@ -41,6 +42,7 @@
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
         },
+	"phpcs": "vendor/bin/phpcs",
         "post-install-cmd": [
             "@auto-scripts"
         ],

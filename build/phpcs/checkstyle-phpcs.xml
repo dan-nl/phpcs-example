@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="2.9.1">
+<file name="/Users/dan/projects/phpcs-example/src/Kernel.php">
+ <error line="12" column="1" severity="error" message="Missing class doc comment" source="Symfony2.Commenting.ClassComment.Missing"/>
+ <error line="18" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+ <error line="23" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+ <error line="28" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+</file>
+</checkstyle>
+

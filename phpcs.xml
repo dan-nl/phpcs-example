@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Xs4All_PHP_CodeSniffer">
+   <description>Xs4All PHP CodeSniffer Configuration</description>
+
+   <file>src</file>
+   <file>tests</file>
+
+   <arg value="s"/>
+   <arg name="colors"/>
+   <arg name="report" value="full"/>
+   <arg name="report-checkstyle" value="build/phpcs/checkstyle-phpcs.xml"/>
+
+   <rule ref="vendor/escapestudios/symfony2-coding-standard/Symfony2">
+       <exclude name="Zend.NamingConventions.ValidVariableName.NotCamelCaps"/>
+   </rule>
+</ruleset>
